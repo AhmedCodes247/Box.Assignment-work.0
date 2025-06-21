@@ -28,7 +28,7 @@ body{
     text-align: left;
     word-spacing: 10px;
     line-height: 1.5;
-    background-color: rgba(22, 0, 119, 0.952);
+    background-color: rgba(2, 0, 119, 0.952);
     border: 4px solid rgb(255, 255, 255);
 }
 /* Scrollbar container */
@@ -52,9 +52,21 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #000000, #002697);
 }
-
+ #c{
+    border: 3px solid white;
+    border: none;
+    margin-left: 450px;
+    min-height: 20px;
+    max-height: 140px;
+    width: 400px;
+    font-family: "Dancing Script", cursive;cursive;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.6;
+    text-transform: lowercase;
+    color: rgb(255, 255, 255);
+ }
 p{
-    
     /* background-color: rgb(134, 114, 128, 0.5); */
     margin-top: 30px;
     margin-left: 30px;
@@ -70,27 +82,10 @@ p{
     color: rgb(255, 255, 255);
 }
  h1{
-    border: 2px solid white;
-    text-align: center;
-    
-     text-shadow: 10px 20px 6px rgba(0, 0, 0, 0.5);
-    /* margin-left: 550px; */
+     
+     text-shadow: 10px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 420px;
     font-family: "Matangi",sans-serif;
     font-weight: 900;
     color: rgb(255, 255, 255);
  }
- #c{
-    border: 1px solid white;
-    margin-left: 450px;
-    min-height: 20px;
-    max-height: 140px;
-    /* border: none; */
-    width: 400px;
-     font-family: "Dancing Script", cursive;cursive;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.6;
-    text-transform: lowercase;
-    color: rgb(255, 255, 255);
- }
- 
