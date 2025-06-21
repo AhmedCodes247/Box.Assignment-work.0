@@ -8,8 +8,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Monsieur+La+Doulaise&display=swap');
 body{
-    background: linear-gradient(to right, #0059be, white );
-    color: white;
+    /* background: ( #0059be, white );
+    color: white; */
+    background-image: url(PpOdY.png);
+    justify-content: center
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: 
+    no-repeat;
     margin-bottom: 0px;
     padding: 5px;
 }
@@ -21,8 +28,8 @@ body{
     text-align: left;
     word-spacing: 10px;
     line-height: 1.5;
-    background-color: rgba(2, 0, 119, 0.952);
-    border: 4px solid rgb(0, 0, 0);
+    background-color: rgba(22, 0, 119, 0.952);
+    border: 4px solid rgb(255, 255, 255);
 }
 /* Scrollbar container */
 /* ::-webkit-scrollbar { */
@@ -37,13 +44,13 @@ body{
 
 /* Scrollbar handle (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #00c6ff, #0072ff);
+  background: linear-gradient(to bottom,#7195f8, #004b88);
   border-radius: 10px
 }
 
 /* Scrollbar handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #008ddf, #0040ff);
+  background: linear-gradient(to bottom, #000000, #002697);
 }
 
 p{
@@ -52,33 +59,38 @@ p{
     margin-top: 30px;
     margin-left: 30px;
     background-color rgb(0, 143, 148);
-    border-top: 3px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(255, 255, 255);
     /* border-width: 4px ; */
-    border-left: 3px solid rgb(0, 0, 0);
-    border-right: 3px solid rgb(0, 0, 0);
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
     width: 75%;
     height: 75%;
     overflow: auto;
     color: rgb(255, 255, 255);
 }
  h1{
+    border: 2px solid white;
+    text-align: center;
+    
      text-shadow: 10px 20px 6px rgba(0, 0, 0, 0.5);
-    margin-left: 420px;
+    /* margin-left: 550px; */
     font-family: "Matangi",sans-serif;
     font-weight: 900;
-    color: black;
+    color: rgb(255, 255, 255);
  }
  #c{
+    border: 1px solid white;
     margin-left: 450px;
     min-height: 20px;
     max-height: 140px;
-    border: none;
+    /* border: none; */
     width: 400px;
      font-family: "Dancing Script", cursive;cursive;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.6;
     text-transform: lowercase;
-    color: rgb(0, 0, 0);
-   
+    color: rgb(255, 255, 255);
+ }
+ 
