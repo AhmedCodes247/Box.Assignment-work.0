@@ -11,6 +11,7 @@ body{
     background: linear-gradient(to right, #0059be, white );
     color: white;
     margin-bottom: 0px;
+    padding: 5px;
 }
 #a{
     margin-left: 500px;
@@ -20,7 +21,7 @@ body{
     text-align: justify
     ;
     line-height: 1.5;
-    background-color: rgb(0, 143, 148);
+    background-color: rgba(2, 0, 119, 0.952);
     border: 3px solid rgb(0, 0, 0);
 }
 /* Scrollbar container */
